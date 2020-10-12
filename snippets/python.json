@@ -1,0 +1,853 @@
+{
+    "apps": {
+        "prefix": "import apps",
+        "body": "from django.apps import apps",
+        "description": "Importing Djangos App from Apps"
+    },
+
+    "AppConfig": {
+        "prefix": "import AppConfig",
+        "body": "from django.apps import AppConfig",
+        "description": "Importing Djangos AppConfig from Apps"
+    },
+
+    "path": {
+        "prefix": "import path",
+        "body": "from django.urls import path",
+        "description": "Importing Djangos URLS - path"
+    },
+
+    "re_path": {
+        "prefix": "import re_path",
+        "body": "from django.urls import re_path",
+        "description": "Importing Djangos URLS - re_path"
+    },
+
+    "include": {
+        "prefix": "import include",
+        "body": "from django.urls import include",
+        "description": "Importing Djangos URLS - include"
+    },
+
+    "register_converter": {
+        "prefix": "import register_converter",
+        "body": "from django.urls import register_converter",
+        "description": "Importing Djangos URLS - register_converter"
+    },
+
+    "admin": {
+        "prefix": "import admin",
+        "body": "from django.contrib import admin",
+        "description": "Importing Django's Admin Site"
+    },
+
+    "authenticate": {
+        "prefix": "import authenticate",
+        "body": "from django.contrib.auth import authenticate",
+        "description": "Importing Djangos Authentication - authenticate"
+    },
+
+    "login": {
+        "prefix": "import login",
+        "body": "from django.contrib.auth import login",
+        "description": "Importing Djangos Authentication - login"
+    },
+
+    "logout": {
+        "prefix": "import logout",
+        "body": "from django.contrib.auth import logout",
+        "description": "Importing Djangos Authentication - logout"
+    },
+
+    "auth_views": {
+        "prefix": "import auth_views",
+        "body": "from django.contrib.auth import auth_views",
+        "description": "Importing Djangos Authentication - auth_views"
+    },
+
+    "update_session_auth_hash": {
+        "prefix": "import update_session_auth_hash",
+        "body": "from django.contrib.auth import update_session_auth_hash",
+        "description": "Importing Djangos Authentication - update_session_auth_hash"
+    },
+
+    "login_required": {
+        "prefix": "import login_required",
+        "body": "from django.contrib.auth.decorators import login_required",
+        "description": "Importing Djangos Authentication Decorators - login_required"
+    },
+
+    "user_passes_test": {
+        "prefix": "import user_passes_test",
+        "body": "from django.contrib.auth.decorators import user_passes_test",
+        "description": "Importing Djangos Authentication Decorators - user_passes_test"
+    },
+
+    "permission_required": {
+        "prefix": "import permission_required",
+        "body": "from django.contrib.auth.decorators import permission_required",
+        "description": "Importing Djangos Authentication Decorators - permission_required"
+    },
+
+    "LoginRequiredMixin": {
+        "prefix": "import LoginRequiredMixin",
+        "body": "from django.contrib.auth.mixins import LoginRequiredMixin",
+        "description": "Importing Djangos Authentication Mixin - LoginRequiredMixin"
+    },
+
+    "UserPassesTestMixin": {
+        "prefix": "import UserPassesTestMixin",
+        "body": "from django.contrib.auth.mixins import UserPassesTestMixin",
+        "description": "Importing Djangos Authentication Mixin - UserPassesTestMixin"
+    },
+
+    "PermissionRequiredMixin": {
+        "prefix": "import PermissionRequiredMixin",
+        "body": "from django.contrib.auth.mixins import PermissionRequiredMixin",
+        "description": "Importing Djangos Authentication Mixin - PermissionRequiredMixin"
+    },
+
+    "AuthenticationForm": {
+        "prefix": "import AuthenticationForm",
+        "body": "from django.contrib.auth.forms import AuthenticationForm",
+        "description": "Importing Djangos Authentication Forms - AuthenticationForm"
+    },
+
+    "UserCreationForm": {
+        "prefix": "import UserCreationForm",
+        "body": "from django.contrib.auth.forms import UserCreationForm",
+        "description": "Importing Djangos Authentication Forms - UserCreationForm"
+    },
+
+    "ReadOnlyPasswordHashField": {
+        "prefix": "import ReadOnlyPasswordHashField",
+        "body": "from django.contrib.auth.forms import ReadOnlyPasswordHashField",
+        "description": "Importing Djangos Authentication Forms - ReadOnlyPasswordHashField"
+    },
+
+    "PBKDF2PasswordHasher": {
+        "prefix": "import PBKDF2PasswordHasher",
+        "body": "from django.contrib.auth.hashers import PBKDF2PasswordHasher",
+        "description": "Importing Django Authentication Password Hashers modules"
+    },
+
+    "User": {
+        "prefix": "import User",
+        "body": "from django.contrib.auth.models import User",
+        "description": "Importing Djangos Authentication Model - User"
+    },
+
+    "AbstractUser": {
+        "prefix": "import AbstractUser",
+        "body": "from django.contrib.auth.models import AbstractUser",
+        "description": "Importing Djangos Authentication Model - AbstractUser"
+    },
+
+    "BaseUserManager": {
+        "prefix": "import BaseUserManager",
+        "body": "from django.contrib.auth.models import BaseUserManager",
+        "description": "Importing Djangos Authentication Model - BaseUserManager"
+    },
+
+    "Group": {
+        "prefix": "import Group",
+        "body": "from django.contrib.auth.models import Group",
+        "description": "Importing Djangos Authentication Model - Group"
+    },
+
+    "UserAdmin": {
+        "prefix": "import UserAdmin",
+        "body": "from django.contrib.auth.admin import UserAdmin",
+        "description": "Importing Django Authentication Admin modules"
+    },
+
+    "ContentType": {
+        "prefix": "import ContentType",
+        "body": "from django.contrib.contenttypes.models import ContentType",
+        "description": "Importing Django Content Type Models modules"
+    },
+
+    "GenericForeignKey": {
+        "prefix": "import GenericForeignKey",
+        "body": "from django.contrib.contenttypes.fields import GenericForeignKey",
+        "description": "Importing Django Content Type Fields - GenericForeignKey"
+    },
+
+    "GenericRelation": {
+        "prefix": "import GenericRelation",
+        "body": "from django.contrib.contenttype.fields import GenericRelation",
+        "description": "Importing Django Content Type Models - GenericRelation"
+    },
+
+    "FlatPageAdmin": {
+        "prefix": "import FlatPageAdmin",
+        "body": "from django.contrib.flatpages.admin import FlatPageAdmin",
+        "description": "Importing Django Flat-Pages Admin modules"
+    },
+
+    "FlatPage": {
+        "prefix": "import FlatPage",
+        "body": "from django.contrib.flatpages.models import FlatPage",
+        "description": "Importing Django Flat-Pages Models - FlatPage"
+    },
+
+    "FlatPageSitemap": {
+        "prefix": "import FlatPageSitemap",
+        "body": "from django.contrib.flatpages.sitemaps import FlatPageSitemap",
+        "description": "Importing Django Flat-Pages Sitemaps - FlatPageSitemap"
+    },
+
+    "models": {
+        "prefix": "import models",
+        "body": "from django.contrib.gis.db import models",
+        "description": "Importing Django GeoDjango model and field API - models"
+    },
+
+    "Length": {
+        "prefix": "import Length",
+        "body": "from django.contrib.gis.db.models.functions import Length",
+        "description": "Importing Django Geographic Database Functions - Length"
+    },
+
+    "Distance": {
+        "prefix": "import Distance",
+        "body": "from django.contrib.gis.db.models.functions import Distance",
+        "description": "Importing Django Geographic Database Functions - Distance"
+    },
+
+    "Feed": {
+        "prefix": "import Feed",
+        "body": "from django.contrib.gis.feeds import Feed",
+        "description": "Importing Django GeoDjangos framework for generating spatial feeds - Feed"
+    },
+
+    "DataSource": {
+        "prefix": "import DataSource",
+        "body": "from django.contrib.gis.gdal import DataSource",
+        "description": "Importing Django GeoDjangs high-level interface to the GDAL Library - DataSource"
+    },
+
+    "OGRGeometry": {
+        "prefix": "import OGRGeometry",
+        "body": "from django.contrib.gis.gdal import OGRGeometry",
+        "description": "Importing Django GeoDjangs high-level interface to the GDAL Library - OGRGeometry"
+    },
+
+    "OGRGeomType": {
+        "prefix": "import OGRGeomType",
+        "body": "from django.contrib.gis.gdal import OGRGeomType",
+        "description": "Importing Django GeoDjangs high-level interface to the GDAL Library - OGRGeomType"
+    },
+
+    "GDALRaster": {
+        "prefix": "import GDALRaster",
+        "body": "from django.contrib.gis.gdal import GDALRaster",
+        "description": "Importing Django GeoDjangs high-level interface to the GDAL Library - GDALRaster"
+    },
+
+    "GeoIP2": {
+        "prefix": "import GeoIP2",
+        "body": "from django.contrib.gis.geoip2 import GeoIP2",
+        "description": "Importing Djangos Interface for MaxKinds GeoIP2 database - GeoIP2"
+    },
+
+    "GEOSGeometry": {
+        "prefix": "import GEOSGeometry",
+        "body": "from django.contrib.gis.geos import GEOSGeometry",
+        "description": "Importing Djangos GeoDjangos high-level interface to the GEOS Library - GEOSGeometry"
+    },
+
+    "Point": {
+        "prefix": "import Point",
+        "body": "from django.contrib.gis.geos import Point",
+        "description": "Importing Djangos GeoDjangos high-level interface to the GEOS Library - Point"
+    },
+
+    "LineString": {
+        "prefix": "import LineString",
+        "body": "from django.contrib.gis.geos import LineString",
+        "description": "Importing Djangos GeoDjangos high-level interface to the GEOS Library - LineString"
+    },
+
+    "fromfile": {
+        "prefix": "import fromfile",
+        "body": "from django.contrib.gis.geos import fromfile",
+        "description": "Importing Djangos GeoDjangos high-level interface to the GEOS Library - fromfile"
+    },
+
+    "messages": {
+        "prefix": "import messages",
+        "body": "from django.contrib import messages",
+        "description": "Importing Djangos Message module like SUCCESS, WARNING, ERROR, DEBUG, INFO"
+    },
+
+    "get_messages": {
+        "prefix": "import get_messages",
+        "body": "from django.contrib.messages import get_messages",
+        "description": "Importing Djangos Message module - get_messages"
+    },
+
+    "SuccessMessageMixin": {
+        "prefix": "import SuccessMessageMixin",
+        "body": "from django.contrib.messages.views import SuccessMessageMixin",
+        "description": "Importing Djangos Message Views - SuccessMessageMixin"
+    },
+
+    "BoolAnd": {
+        "prefix": "import BoolAnd",
+        "body": "from django.contrib.postgres.aggregates import BoolAnd",
+        "description": "Importing Djangos PostgreSQL Aggregrates - BoolAnd"
+    },
+
+    "BoolOr": {
+        "prefix": "import BoolOr",
+        "body": "from django.contrib.postgres.aggregates import BoolOr",
+        "description": "Importing Djangos PostgreSQL Aggregrates - BoolOr"
+    },
+
+    "ExclusionConstraint": {
+        "prefix": "import ExclusionConstraint",
+        "body": "from django.contrib.postgres.constraints import ExclusionConstraint",
+        "description": "Importing Djangos PostgreSQL Contraints - ExclusionContraint"
+    },
+
+    "RangeOperators": {
+        "prefix": "import RangeOperators",
+        "body": "from django.contrib.postgres.fields import RangeOperators",
+        "description": "Importing Django PostgreSQL Fields - RangeOperators"
+    },
+
+    "DateTimeRangeField": {
+        "prefix": "import DateTimeRangeField",
+        "body": "from django.contrib.postgres.fields import DateTimeRangeField",
+        "description": "Importing Django PostgreSQL Fields - DateTimeRangeField"
+    },
+
+    "RangeBoundary": {
+        "prefix": "import RangeBoundary",
+        "body": "from django.contrib.postgres.fields import RangeBoundary",
+        "description": "Importing Django PostgreSQL Fields - RangeBoundary"
+    },
+
+    "SessionStore": {
+        "prefix": "import SessionStore",
+        "body": "from django.contrib.sessions.backends.db import SessionStore",
+        "description": "Importing Djangos Session Backend DB - SessionStore"
+    },
+
+    "Session": {
+        "prefix": "import Session",
+        "body": "from django.contrib.sessions.models import Session",
+        "description": "Importing Djangos Session Models - Session"
+    },
+
+    "AbstractBaseSession": {
+        "prefix": "import AbstractBaseSession",
+        "body": "from django.contrib.sessions.base_session import AbstractBaseSession",
+        "description": "Importing Djangos Session Models - AbstractBaseSession"
+    },
+
+    "sitemap": {
+        "prefix": "import sitemap",
+        "body": "from django.contrib.sitemaps import Sitemap",
+        "description": "Importing Djangos framework for generating Google sitemap XML Files - sitemap"
+    },
+
+    "Site": {
+        "prefix": "import Site",
+        "body": "from django.contrib.sites.models import Site",
+        "description": "Lets you operate multiple websites from the same database and Django Project"
+    },
+
+    "get_current_site": {
+        "prefix": "import get_current_site",
+        "body": "from django.contrib.sites.shortcuts import get_current_site",
+        "description": "Lets you operate multiple websites from the same database and Django Project - get_current_site"
+    },
+
+    "storage": {
+        "prefix": "import storage",
+        "body": "from django.contrib.staticfiles import storage",
+        "description": "An app for handling static files"
+    },
+
+    "StaticFilesConfig": {
+        "prefix": "import StaticFilesConfig",
+        "body": "from django.contrib.staticfiles.apps import StaticFilesConfig",
+        "description": "An app for handling static files - StaticFilesConfig"
+    },
+
+    "finders": {
+        "prefix": "import finders",
+        "body": "from django.contrib.staticfiles import finders",
+        "description": "An app for handling static files - finders"
+    },
+
+    "Syndication Feed": {
+        "prefix": "import Feed",
+        "body": "from django.contrib.syndication.views import Feed",
+        "description": "A framework for generating syndication feeds, in RSS and Atom, quite easily - Feed"
+    },
+
+    "Checks Error": {
+        "prefix": "import Error",
+        "body": "from django.core.checks import Error",
+        "description": "The framework is flexible and allows you to write functions that perform any other kind of check you may require - Error"
+    },
+
+    "Checks register": {
+        "prefix": "import register",
+        "body": "from django.core.checks import register",
+        "description": "The framework is flexible and allows you to write functions that perform any other kind of check you may require - register"
+    },
+
+    "send_mail": {
+        "prefix": "import send_mail",
+        "body": "from django.core.mail import send_mail",
+        "description": "Helpers to easily Send Email - send_mail"
+    },
+
+    "send_mass_mail": {
+        "prefix": "import send_mass_mail",
+        "body": "from django.core.mail import send_mass_mail",
+        "description": "Helpers to easily Send Email - send_mass_mail"
+    },
+
+    "mail_admins": {
+        "prefix": "import mail_admins",
+        "body": "from django.core.mail import mail_admins",
+        "description": "Helpers to easily Send Email - mail_admins"
+    },
+
+    "mail_managers": {
+        "prefix": "import mail_managers",
+        "body": "from django.core.mail import mail_managers",
+        "description": "Helpers to easily Send Email - mail_managers"
+    },
+
+    "BadHeaderError": {
+        "prefix": "import BadHeaderError",
+        "body": "from django.core.mail import BadHeaderError",
+        "description": "Preventing Header Injection"
+    },
+
+    "EmailMessage": {
+        "prefix": "import EmailMessage",
+        "body": "from django.core.mail import EmailMessage",
+        "description": "Helpers to easily Send Email - EmailMessage"
+    },
+
+    "EmailMultiAlternatives": {
+        "prefix": "import EmailMultiAlternatives",
+        "body": "from django.core.mail import EmailMultiAlternatives",
+        "description": "Helpers to easily Send Email - EmailMultiAlternatives"
+    },
+
+    "BaseCommand": {
+        "prefix": "import BaseCommand",
+        "body": "from django.core.management.base import BaseCommand",
+        "description": "Custom management commands are especially useful for running standalone scripts - BaseCommand"
+    },
+
+    "CommandError": {
+        "prefix": "import CommandError",
+        "body": "from django.core.management.base import CommandError",
+        "description": "Custom management commands are especially useful for running standalone scripts - CommandError"
+    },
+
+    "no_translations": {
+        "prefix": "import no_translations",
+        "body": "from django.core.management.base import no_translations",
+        "description": "Custom management commands are especially useful for running standalone scripts - no_translations"
+    },
+
+    "m2m_changed": {
+        "prefix": "import m2m_changed",
+        "body": "from django.db.models.signals import m2m_changed",
+        "description": "Core Signals sent by the request/response system - m2m_changed"
+    },
+
+    "post_migrate": {
+        "prefix": "import post_migrate",
+        "body": "from django.db.models.signals import post_migrate",
+        "description": "Core Signals sent by the request/response system - post_migrate"
+    },
+
+    "Signer": {
+        "prefix": "import Signer",
+        "body": "from django.core.signing import Signer",
+        "description": "Djangos signing framework - Signer"
+    },
+
+    "TimestampSigner": {
+        "prefix": "import TimestampSigner",
+        "body": "from django.core.signing import TimestampSigner",
+        "description": "Djangos signing framework - TimestampSigner"
+    },
+
+    "ValidationError": {
+        "prefix": "import ValidationError",
+        "body": "from django.core.exceptions import ValidationError",
+        "description": "Validation utilities and base classes - ValidationError"
+    },
+
+    "migrations": {
+        "prefix": "import migrations",
+        "body": "from django.db import migrations",
+        "description": "Schema migration support for Django Models - migrations"
+    },
+
+    "DB models": {
+        "prefix": "import models",
+        "body": "from django.db import models",
+        "description": "Schema migration support for Django Models - models"
+    },
+
+    "Operation": {
+        "prefix": "import Operation",
+        "body": "from django.db.migrations.operations.base import Operation",
+        "description": "Django DB Operations - Operation"
+    },
+
+    "UniqueConstraint": {
+        "prefix": "import UniqueConstraint",
+        "body": "from django.db.models import UniqueConstraint",
+        "description": "Django DB Contraints - UniqueConstraint"
+    },
+
+    "FloatField": {
+        "prefix": "import FloatField",
+        "body": "from django.db.models import FloatField",
+        "description": "FloatField from Django DB"
+    },
+
+    "Cast": {
+        "prefix": "import Cast",
+        "body": "from django.db.models.functions import Cast",
+        "description": "Cast - Django DB Models Functions"
+    },
+
+    "Coalesce": {
+        "prefix": "import Coalesce",
+        "body": "from django.db.models.functions import Coalesce",
+        "description": "Accepts a list of at least two field names or expressions and returns the first non-null value (note that an empty string is not considered a null value)."
+    },
+
+    "transaction": {
+        "prefix": "import transaction",
+        "body": "from django.db import transaction",
+        "description": "Django DB Transaction"
+    },
+
+    "IntegrityError": {
+        "prefix": "import IntegrityError",
+        "body": "from django.db import IntegrityError",
+        "description": "Django DB IntegrityError"
+    },
+
+    "DatabaseError": {
+        "prefix": "import DatabaseError",
+        "body": "from django.db import DatabaseError",
+        "description": "Django DB Database - DatabaseError"
+    },
+
+    "request_finished": {
+        "prefix": "import request_finished",
+        "body": "from django.core.signals import request_finished",
+        "description": "Signal Dispatch - request_finished"
+    },
+
+    "pre_save": {
+        "prefix": "import pre_save",
+        "body": "from django.db.models.signals import pre_save",
+        "description": "Django DB Models Signals - pre_save"
+    },
+
+    "forms": {
+        "prefix": "import forms",
+        "body": "from django import forms",
+        "description": "Django Forms - forms"
+    },
+
+    "HttpResponse": {
+        "prefix": "import HttpResponse",
+        "body": "from django.http import HttpResponse",
+        "description": "Classes dealing with HTTP requests and responses - HttpResponse"
+    },
+
+    "JsonResponse": {
+        "prefix": "import JsonResponse",
+        "body": "from django.http import JsonResponse",
+        "description": "Classes dealing with HTTP requests and responses - JsonResponse"
+    },
+
+    "FileResponse": {
+        "prefix": "import FileResponse",
+        "body": "from django.http import FileResponse",
+        "description": "Classes dealing with HTTP requests and responses - FileResponse"
+    },
+
+    "xframe_options_exempt": {
+        "prefix": "import xframe_options_exempt",
+        "body": "from django.views.decorators.clickjacking import xframe_options_exempt",
+        "description": "Protects against Clickjacking - xframe_options_exempt"
+    },
+
+    "xframe_options_deny": {
+        "prefix": "import xframe_options_deny",
+        "body": "from django.views.decorators.clickjacking import xframe_options_deny",
+        "description": "Protects against Clickjacking - xframe_options_deny"
+    },
+
+    "xframe_options_sameorigin": {
+        "prefix": "import xframe_options_sameorigin",
+        "body": "from django.views.decorators.clickjacking import xframe_options_sameorigin",
+        "description": "Protects against Clickjacking - xframe_options_sameorigin"
+    },
+
+    "csrf_protect": {
+        "prefix": "import csrf_protect",
+        "body": "from django.views.decorators.csrf import csrf_protect",
+        "description": "Protects against Cross Site Request Forgeries - csrf_protect"
+    },
+
+    "csrf_exempt": {
+        "prefix": "import csrf_exempt",
+        "body": "from django.views.decorators.csrf import csrf_exempt",
+        "description": "Protects against Cross Site Request Forgeries - csrf_exempt"
+    },
+
+    "requires_csrf_token": {
+        "prefix": "import requires_csrf_token",
+        "body": "from django.views.decorators.csrf import requires_csrf_token",
+        "description": "Protects against Cross Site Request Forgeries - requires_csrf_token"
+    },
+
+    "render": {
+        "prefix": "import render",
+        "body": "from django.shortcuts import render",
+        "description": "Convenience shortcuts that span multiple level of Djangos MVC stack - render"
+    },
+
+    "redirect": {
+        "prefix": "import redirect",
+        "body": "from django.shortcuts import redirect",
+        "description": "Convenience shortcuts that span multiple level of Djangos MVC stack - redirect"
+    },
+
+    "get_object_or_404": {
+        "prefix": "import get_object_or_404",
+        "body": "from django.shortcuts import get_object_or_404",
+        "description": "Convenience shortcuts that span multiple level of Djangos MVC stack - get_object_or_404"
+    },
+
+    "get_list_or_404": {
+        "prefix": "import get_list_or_404",
+        "body": "from django.shortcuts import get_list_or_404",
+        "description": "Convenience shortcuts that span multiple level of Djangos MVC stack - get_list_or_404"
+    },
+
+    "render_to_string": {
+        "prefix": "import render_to_string",
+        "body": "from django.template.loader import render_to_string",
+        "description": "Djangos Template System - render_to_string"
+    },
+
+    "engines": {
+        "prefix": "import engines",
+        "body": "from django.template.loader import engines",
+        "description": "Djangos Template System - engines"
+    },
+
+    "static": {
+        "prefix": "import static",
+        "body": "from django.templatetags.static import static",
+        "description": "Djangos Template System - static"
+    },
+
+    "TemplateResponse": {
+        "prefix": "import TemplateResponse",
+        "body": "from django.template.response import TemplateResponse",
+        "description": "Classes dealing with laxy-rendered HTTP responses - TemplateResponse"
+    },
+
+    "TestCase": {
+        "prefix": "import TestCase",
+        "body": "from django.test import TestCase",
+        "description": "Testing tools for Django application - TestCase"
+    },
+
+    "RequestFactory": {
+        "prefix": "import RequestFactory",
+        "body": "from django.test import RequestFactory",
+        "description": "Testing tools for Django application - RequestFactory"
+    },
+
+    "reverse": {
+        "prefix": "import reverse",
+        "body": "from django.urls import reverse",
+        "description": "Django URLS - reverse"
+    },
+
+    "reverse_lazy": {
+        "prefix": "import reverse_lazy",
+        "body": "from django.urls import reverse_lazy",
+        "description": "Django URLS - reverse_lazy"
+    },
+
+    "resolve": {
+        "prefix": "import resolve",
+        "body": "from django.urls import resolve",
+        "description": "Django URLS - resolve"
+    },
+
+    "get_script_prefix": {
+        "prefix": "import get_script_prefix",
+        "body": "from django.urls import get_script_prefix",
+        "description": "Django URLS - get_script_prefix"
+    },
+
+    "feedgenerator": {
+        "prefix": "import feedgenerator",
+        "body": "from django.utils import feedgenerator",
+        "description": "Djangos built-in utilities - feedgenerator"
+    },
+
+    "cached_property": {
+        "prefix": "import cached_property",
+        "body": "from django.utils.functional import cached_property",
+        "description": "Djangos built-in utilities - cached_property"
+    },
+
+    "keep_lazy": {
+        "prefix": "import keep_lazy",
+        "body": "from django.utils.functional import keep_lazy",
+        "description": "Djangos built-in utilities - keep_lazy"
+    },
+
+    "keep_lazy_text": {
+        "prefix": "import keep_lazy_text",
+        "body": "from django.utils.functional import keep_lazy_text",
+        "descriptions": "Djangos build-in utilities - keep_lazy_text"
+    },
+
+    "import_string": {
+        "prefix": "import import_string",
+        "body": "from django.utils.module_loading import import_string",
+        "description": "Djangos built-in utilities - import_string"
+    },
+
+    "format_lazy": {
+        "prefix": "import format_lazy",
+        "body": "from django.utils.text import format_lazy",
+        "descriptions": "Djangos build-in utilities - format_lazy"
+    },
+
+    "pgettext_lazy": {
+        "prefix": "import pgettext_lazy",
+        "body": "from django.utils.translation import pgettext_lazy",
+        "description": "Djangos built-in utilities - pgettext_lazy"
+    },
+
+    "serve": {
+        "prefix": "import serve",
+        "body": "from django.views.static import serve",
+        "description": "Djangos built-in Views - serve"
+    },
+
+    "require_http_methods": {
+        "prefix": "import require_http_methods",
+        "body": "from django.views.decorators.http import require_http_methods",
+        "description": "Djangos built-in Views - require_http_methods"
+    },
+
+    "ArchiveIndexView": {
+        "prefix": "import ArchiveIndexView",
+        "body": "from django.views.generic.dates import ArchiveIndexView",
+        "description": "Djangos built-in Views - ArchiveIndexView"
+    },
+
+    "YearArchiveView": {
+        "prefix": "import YearArchiveView",
+        "body": "from django.views.generic.dates import YearArchiveView",
+        "description": "Djangos built-in Views - YearArchiverView"
+    },
+
+    "MonthArchiveView": {
+        "prefix": "import MonthArchiveView",
+        "body": "from django.views.generic.dates import MonthArchiveView",
+        "description": "Djangos built-in Views - MonthArchiveView"
+    },
+
+    "WeekArchiveView": {
+        "prefix": "import WeekArchiveView",
+        "body": "from django.views.generic.dates import WeekArchiveView",
+        "description": "Djangos built-in Views - WeekArchiveView"
+    },
+
+    "DayArchiveView": {
+        "prefix": "import DayArchiveView",
+        "body": "from django.views.generic.dates import DayArchiveView",
+        "description": "Djangos built-in Views - DayArchiveView"
+    },
+
+    "TodayArchiveView": {
+        "prefix": "import TodayArchiveView",
+        "body": "from django.views.generic.dates import TodayArchiveView",
+        "description": "Djangos built-in Views - TodayArchiveView"
+    },
+
+    "ArticleTodayArchiveView": {
+        "prefix": "import ArticleTodayArchiveView",
+        "body": "from django.views.generic.dates import ArticleTodayArchiveView",
+        "description": "Djangos built-in Views - ArticleTodayArchiveView"
+    },
+
+    "DateDetailView": {
+        "prefix": "import DateDetailView",
+        "body": "from django.views.generic.dates import DateDetailView",
+        "description": "Djangos built-in Views - DateDetailView"
+    },
+
+    "gettext": {
+        "prefix": "import gettext",
+        "body": "from django.utils.translation import gettext",
+        "description": "Djangos built-in i18n - gettext"
+    },
+
+    "ngettext": {
+        "prefix": "import ngettext",
+        "body": "from django.utils.translation import ngettext",
+        "description": "Djangos built-in i18n - ngettext"
+    },
+
+    "pgettext": {
+        "prefix": "import pgettext",
+        "body": "from django.utils.translation import pgettext",
+        "description": "Djangos built-in i18n - pgettext"
+    },
+
+    "gettext_lazy": {
+        "prefix": "import gettext_lazy",
+        "body": "from django.utils.translation import gettext_lazy",
+        "description": "Djangos built-in i18n - gettext_lazy"
+    },
+
+    "get_language_info": {
+        "prefix": "import get_language_info",
+        "body": "from django.utils.translation import get_language_info",
+        "description": "Djangos built-in i18n - get_language_info"
+    },
+
+    "JavaScriptCatalog": {
+        "prefix": "import JavaScriptCatalog",
+        "body": "from django.views.i18n import JavaScriptCatalog",
+        "description": "Djangos built-in i18n - JavaScriptCatalog"
+    },
+
+    "i18n_patterns": {
+        "prefix": "import i18n_patterns",
+        "body": "from django.conf.urls.i18n import i18n_patterns",
+        "description": "Djangos built-in i18n - i18n_patterns"
+    }
+}
